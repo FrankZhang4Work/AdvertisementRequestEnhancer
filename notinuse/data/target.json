@@ -1,0 +1,23 @@
+{
+	"site": {
+		"id": "foo123",
+		"page": "http://www.foo.com/why-foo",
+		"demographics": {
+			"female_percent": 62,
+			"male_percent": 38
+		},
+		"publisher": {
+			"id": "2359sdf",
+			"name": "Foo LLC"
+		}
+	},
+	"device": {
+		"ip": "69.250.196.118",
+		"geo": {
+			"country": "US"
+		}
+	},
+	"user": {
+		"id": "9cb89r"
+	}
+}
