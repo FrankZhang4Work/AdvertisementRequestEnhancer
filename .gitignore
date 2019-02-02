@@ -1,0 +1,4 @@
+/node_modules/*
+/notinuse/*
+.DS_Store
+/service/geoIp2Auth.json

@@ -1,6 +1,8 @@
 const axios = require('axios');
+
+const geo_ip_token = require("./geoIp2Auth.json");
 const WebServiceClient = require('@maxmind/geoip2-node').WebServiceClient;
-const client = new WebServiceClient('139129', 'xaFzH4gykYJU');
+const client = new WebServiceClient(geo_ip_token.user, geo_ip_token.token);
 
 function getPublisher(siteId) {
 	return axios.post('http://159.89.185.155:3000/api/publishers/find', {
